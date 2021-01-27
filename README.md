@@ -31,7 +31,7 @@ Supported **flags**:
 	* f, e: result always contains a decimal point  
 	* g: result always contains a decimal point and trailing zeros are not removed
 
-**Width**: minimum width of the output (result is padded with spaces to the left to meet this requirement, unless specified by flags **0** or **-**).
+**Width**: minimum width of the output (result is padded with spaces to the left to meet this requirement, unless specified by flags **0** or **-**)
 
 **Precision**:
 * integer conversions (d, i, o, u, x, X): minimum number of digits  
@@ -39,7 +39,7 @@ Supported **flags**:
 * g conversion: number of significant digits
 * string conversion (s): maximum number of characters to be printed
 
-The **width** and **precision** specifiers expect a decimal digit string or a **\*** combined with an int argument (before the argument to be converted)
+The **width** and **precision** specifiers expect a decimal digit string or a **\*** combined with an int argument (before the argument to be converted).
 
 Supported **length** modifiers (integer conversions):
 
