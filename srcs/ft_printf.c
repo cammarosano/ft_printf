@@ -6,7 +6,7 @@
 /*   By: rcammaro <rcammaro@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/05 06:14:55 by rcammaro          #+#    #+#             */
-/*   Updated: 2021/01/27 14:23:56 by rcammaro         ###   ########.fr       */
+/*   Updated: 2021/01/28 14:16:51 by rcammaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 ** Returns the number of bytes written (output), or -1 if error.
 */
 
-static int	convert(const char **s, va_list args, unsigned int counter)
+static int	convert(const char **s, va_list args, int counter)
 {
 	t_specs	specs;
 
@@ -63,9 +63,9 @@ static int	putstr_move(const char **str)
 
 int			ft_printf(const char *format, ...)
 {
-	va_list			args;
-	int				ret;
-	unsigned int	counter;
+	va_list	args;
+	int		ret;
+	int		counter;
 
 	if (!format)
 		return (-1);

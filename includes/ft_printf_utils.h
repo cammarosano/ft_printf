@@ -6,7 +6,7 @@
 /*   By: rcammaro <rcammaro@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/27 14:24:23 by rcammaro          #+#    #+#             */
-/*   Updated: 2021/01/27 14:54:27 by rcammaro         ###   ########.fr       */
+/*   Updated: 2021/01/28 14:17:40 by rcammaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ int					convert_string(t_specs specs, va_list args);
 int					convert_integer(t_specs specs, va_list args);
 int					convert_pointer(t_specs specs, va_list args);
 int					convert_float(t_specs specs, va_list args);
-int					convert_n(int lenght, va_list args, unsigned int counter);
+int					convert_n(int lenght, va_list args, int counter);
 int					unknown_conversion(t_specs specs, const char **format);
 
 char				*adjust_width_align(char *src, t_specs specs);

@@ -6,7 +6,7 @@
 /*   By: rcammaro <rcammaro@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/05 07:05:01 by rcammaro          #+#    #+#             */
-/*   Updated: 2021/01/27 14:23:56 by rcammaro         ###   ########.fr       */
+/*   Updated: 2021/01/28 14:17:29 by rcammaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 ** this conversion).
 */
 
-int	convert_n(int length, va_list args, unsigned int counter)
+int	convert_n(int length, va_list args, int counter)
 {
 	void	*ptr;
 
