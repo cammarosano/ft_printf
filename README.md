@@ -4,7 +4,7 @@ As part of the 42 cursus, this project's goal was to recode printf.
 
 `%[flags][width][.precision][length]type`  
 
-Supported **conversion** types:
+Supported conversion **types**:
 
 * **c**: character  
 * **s**: string  
