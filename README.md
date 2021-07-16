@@ -1,7 +1,10 @@
 # ft_printf #
 
-As part of the 42 cursus, this project's goal was to recode printf.
+As part of the [42](https://www.42.fr/) cursus, this project's goal was to recode printf (C standard library).
 
+The printf function takes a format string and optional arguments and produce a formatted sequence of characters for output. More info [here](https://docs.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-160).
+
+A conversion specification consists of a **%** followed by optional fields and the required **type** field:  
 `%[flags][width][.precision][length]type`  
 
 Supported conversion **types**:
